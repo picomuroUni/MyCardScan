@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/collection_fragment">
+
+    <fragment
+        android:id="@+id/collection_fragment"
+        android:name="com.Picone.MyCardScan.fragment.CollectionFragment"
+        android:label="fragment_collection"
+        tools:layout="@layout/collection_fragment" />
+
+    <fragment
+        android:id="@+id/search_by_code_fragment"
+        android:name="com.Picone.MyCardScan.fragment.searchByCodeFragment"
+        android:label="fragment_search_by_code"
+        tools:layout="@layout/search_by_code_fragment" />
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.Picone.MyCardScan.fragment.settingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/find_collectors_fragment"
+        android:name="com.Picone.MyCardScan.fragment.findCollectorsFragment"
+        android:label="fragment_find_collectors"
+        tools:layout="@layout/find_collectors_fragment" />
+</navigation>

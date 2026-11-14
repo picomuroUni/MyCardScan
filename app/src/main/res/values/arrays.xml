@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_conditions" translatable="false">
+        <item>Mint</item>
+        <item>Near Mint</item>
+        <item>Excellent</item>
+        <item>Good</item>
+        <item>Light Played</item>
+        <item>Played</item>
+        <item>Poor</item>
+    </string-array>
+</resources>
