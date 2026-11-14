@@ -21,7 +21,7 @@
             android:textColor="?attr/colorOnSurface"
             android:textStyle="bold" />
 
-        <!-- ===== Wanted list ===== -->
+        <!-- Wanted list -->
         <TextView
             style="@style/TextAppearance.Material3.LabelLarge"
             android:layout_width="match_parent"
@@ -86,7 +86,7 @@
             android:textAppearance="?attr/textAppearanceBodyMedium"
             android:textColor="?attr/colorOnSurfaceVariant" />
 
-        <!-- ===== Collezionisti vicini ===== -->
+        <!--  Collezionisti vicini  -->
         <TextView
             style="@style/TextAppearance.Material3.LabelLarge"
             android:layout_width="match_parent"
